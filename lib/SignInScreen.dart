@@ -33,7 +33,7 @@ class _SignInScreenState extends State<SignInScreen> {
             children: [
               Text(
                 "Google Sign In Page",
-                style: TextStyle(Fontsize: 25, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
               ),
               Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),
@@ -61,8 +61,8 @@ class _SignInScreenState extends State<SignInScreen> {
                     ],
                     ),
 
-                    onPressed: (),
-                    signup(context);
+                    onPressed: ()
+                      signup(context);
                   },
                ),
               )
