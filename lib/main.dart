@@ -24,6 +24,7 @@ class _GoogleSignInState extends State<GoogleSignIn> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.cyan,
+        accentColor: Colors.blue,
       ),
       
       home: SignInScreen(),
